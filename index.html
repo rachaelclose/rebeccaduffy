@@ -11,46 +11,130 @@
   <style>
     a {
       color: #F5F5DC;
-      /* Beige color for the link */
       text-decoration: none;
     }
 
     a:hover {
       color: #D2B48C;
-      /* A slightly darker beige for the hover effect */
+    }
+
+    /* Grayscale profile image with hover effect */
+    .profile-img {
+      max-width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 10px auto;
+      filter: grayscale(100%);
+      transition: filter 0.3s;
+    }
+
+    .profile-img:hover {
+      filter: grayscale(0%);
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .experience .job,
+    .organizations .org {
+      margin-bottom: 15px;
     }
   </style>
   <title>Rebecca Duffy</title>
-
 </head>
 
 <body>
   <div class="grid-2">
     <div class="section-1">
       <i class="fas fa-coffee fa-5x white"></i>
-      <h2></h2>
-      <p>New York City, Metropolitan Area.</p>
+      <img src="emerson.jpg" alt="Rebecca Duffy" class="profile-img">
+      <h2>Rebecca Duffy</h2>
+      <p>New York City, Metropolitan Area</p>
       <div class="social-icons">
-        <a href="https://linkedin.com/in/rachael-close"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/rachaelclose"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rebecca-duffy-9621b5377/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
       </div>
     </div>
+
     <div class="section-2">
       <h2>About</h2>
-      <p>Hi everyone! My name is Rachael Close (she/her), and I'm an undergrad at Cornell University.</p>
-      <p>I am a software engineering intern at H2Ok Innovations, where I work on machine learning, SQL, and web
-        development projects using React. Last summer, I interned as a machine learning intern at the Cornell
-        Cyber-Agricultural Intelligence and Robotics
-        Lab and as a REU robotics research intern under the mentorship of Sarah Dean.</p>
-      <p>My interests lie in machine
-        learning, robotics, and software development, with a strong focus on teaching and mentoring. I am curious about
-        the intersections of artificial intelligence, human-computer interaction, and autonomous systems.</p>
-      <p>When I'm not working, I enjoy figure skating, rock climbing, and playing tennis. I
-        also love spending time with family and friends, traveling, making pottery, and doing the NYT mini crossword.
+      <p>Hi everyone! My name is Rebecca Duffy (she/her/hers), and I'm a Communication Studies major at Emerson College.
       </p>
+
+      <p>I consider myself a messaging strategist, someone who thinks deeply about how people connect, communicate, and
+        understand one another.</p>
+
+      <p>Using my skills in strategic messaging, data analysis, and audience engagement, I work to make a meaningful
+        difference. These abilities have shaped my volunteer and consulting roles, where I’ve supported families and
+        unhoused individuals in Boston while helping strengthen community outreach and advocacy efforts.</p>
+
+      <h3>What is Communication Studies?</h3>
+      <p>To me, Communication Studies is about connecting people and ideas with purpose. At Emerson, I’ve learned to
+        craft meaningful messages, understand audiences, and apply communication for real community impact. It’s shown
+        me how communication can create change, and it’s the foundation for why I care deeply about the work I do.</p>
+
+      <h3>Relevant Coursework</h3>
+      <ul>
+        <li><strong>The U.S. and Latin America (POL-230):</strong> Analyzed U.S.–Latin American political relations and
+          researched human rights issues in El Salvador.</li>
+        <li><strong>Sustainable Development (PL-250):</strong> Examined global development models, inequality, and
+          equitable access within sustainability initiatives.</li>
+        <li><strong>Special Events (CC-319):</strong> Developed event planning skills and created fundraising concepts
+          for nonprofit organizations.</li>
+        <li><strong>Nonprofit Communication Management (CC-315):</strong> Studied nonprofit operations, mission
+          communication, and stakeholder engagement.</li>
+        <li><strong>Global Political Communication:</strong> Analyzed international media systems, propaganda, and
+          global information flows.</li>
+      </ul>
+
+      <h3>Experience</h3>
+      <div class="experience">
+        <div class="job">
+          <strong>Marketing Intern — Julie’s Family Learning Program</strong><br>
+          <em>Jan 2025 – May 2025</em>
+          <p>Supported community-focused marketing initiatives, contributing to content creation, outreach strategies,
+            and promotion of educational and family support services.</p>
+        </div>
+
+        <div class="job">
+          <strong>Political Science Research Assistant — Stonehill College</strong><br>
+          <em>Jan 2023 – May 2023</em>
+          <p>Assisted with research on international relations and political behavior; contributed to data collection,
+            literature reviews, and project organization.</p>
+        </div>
+
+        <div class="job">
+          <strong>Developmental Psychology Research Assistant — Stonehill College</strong><br>
+          <em>Sept 2022 – Dec 2022</em>
+          <p>Supported early childhood development research; assisted with study coordination, participant preparation,
+            and data organization.</p>
+        </div>
+      </div>
+
+      <h3>Organizations & Involvement</h3>
+      <div class="organizations">
+        <div class="org">
+          <strong>Public Relations Student Society of America (PRSSA) — Emerson College</strong><br>
+          <em>Member (Current)</em>
+          <p>Participate in professional development, networking, and collaborative opportunities in public relations
+            and communication.</p>
+        </div>
+
+        <div class="org">
+          <strong>Communications, Politics, and Law Association — Emerson College</strong><br>
+          <em>Member (Sept 2023 – Sept 2024)</em>
+          <p>Engaged in discussions, events, and projects at the intersection of communication, political issues, and
+            legal studies.</p>
+        </div>
+      </div>
+
       <h2>Contact</h2>
-      <p><a href="mailto:rlc355@cornell.edu">📧: rlc355@cornell.edu</a></p>
-      <p><a href="Rachael_Close_Resume.pdf" download="Rachael_Close_Resume.pdf">resume</a></p>
+      <p><a href="mailto:rebeccaaduffyy@gmail.com">📧: rebeccaaduffyy@gmail.com</a></p>
     </div>
   </div>
 </body>

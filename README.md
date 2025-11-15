@@ -1,4 +1,4 @@
-# Rachael Close's Personal Portfolio
+# Personal Portfolio
 
 ## Introduction
 Welcome to the repository for my personal portfolio website. This site is designed to blog and showcase my journey and achievements as a computer scientist.
